@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f0c00d28-1c68-42dd-adee-9b4ce0e78967</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Functions\Exercise.py</StartupFile>
+    <StartupFile>Utils\Time.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -30,10 +30,15 @@
     <Compile Include="Functions\Exercise.py" />
     <Compile Include="Functions\Function.py" />
     <Compile Include="HelloWorld.py" />
+    <Compile Include="Utils\Math.py" />
+    <Compile Include="Utils\DateTime.py" />
+    <Compile Include="Utils\Random.py" />
+    <Compile Include="Utils\Time.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Collections\" />
     <Folder Include="Functions\" />
+    <Folder Include="Utils\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
